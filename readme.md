@@ -9,3 +9,11 @@ A social website made for education porpose
 - Share Posts
 - Like Posts
 - Comment
+
+## Languages
+- HTML/CSS
+- Js
+- Ajax
+- PHP
+- Laravel
+- MySQL
