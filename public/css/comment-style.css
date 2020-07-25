@@ -1,0 +1,209 @@
+
+.all-comments{
+    background: #f1f5f7;
+    width: 95%;
+    margin-left: -2px;
+    z-index: 3;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.comment-head{
+    position: relative;
+}
+
+.comment-head img{
+    float: left;
+    width: 35px;
+    margin: 0 5px;
+}
+
+.comment-head .head-details{
+    float: left;
+    margin: 0 5px;
+    z-index: 1;
+}
+
+.comment-head .head-details h3{
+    margin: 3px 0 0;
+    color: #2a4d69;
+    font-size: 18px;
+}
+
+.comment-head .head-details p{
+    margin: 1px 1px;
+    font-size: 12px;
+    color: #2a4d6993;
+}
+
+.comment-head .head-button{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    float: right;
+    z-index: 1;
+}
+
+.comment-head .head-button button{
+    float: right;
+    margin: 0 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #2a4d69c5;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-top: -5px;
+    position: relative;
+}
+
+.comment-head .head-button .optiones-comment{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background: #fff;
+    width: 150%;
+    height: auto;
+    box-shadow: 0px 1px 2px #00000079;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    opacity: 0;
+    transform: translateY(-25px);
+    visibility: hidden;
+}
+
+.comment-head .head-button .optiones-comment button{
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: #2a4d69f3;
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    text-align: left;
+}
+
+.comment-head .head-button .optiones-comment button:hover{
+    background: #efeff0;
+}
+
+.comment-section{
+    margin: 0 auto;
+    padding: 5px 2px 1px;
+    transform: translateY(-1px);
+    visibility: visible;
+}
+
+.comment-details{
+    width: 80%;
+    margin: 25px auto 0px;
+    color: black;
+}
+
+.comment-details p{
+    font-size: 18px;
+}
+
+.comment-action{
+    width: 90%;
+    margin: 5px auto 0;
+    padding: 5px 0 0;
+    z-index: 5056156;
+}
+
+.comment-action .left-action-comment{
+    float: left;
+}
+
+.comment-action button{
+    padding: 0px 5px;
+    height: 40px;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s ease;
+}
+
+.comment-action button i{
+    color: #2a4d69; 
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.comment-action button i.fas.love{
+    color: rgb(240, 22, 87)
+}
+
+.comment-action button p{
+    display: inline-block;
+}
+
+.comment-action button:hover{
+    transform: translateY(-2px);
+}
+
+.comment-action .right-action{
+    float: right;
+}
+
+.comment-action .right-action p{
+    display: inline-block;
+    font-size: 10px;
+    color: #2a4d69; 
+    margin: 12px 2px;
+    text-decoration: underline;
+}
+
+.comment-details .edit-form-comment{
+    width: 100%;
+    display: none;
+}
+
+.comment-details .edit-form-comment textarea{
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0px 2px #00000079;
+    transition: 0.3s ease;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    height: 40px;
+    margin-bottom: 0;
+}
+
+.comment-action .right-action-comment button, .comment-action .right-action-comment input[type=submit]{
+    margin: 5px 2px 0;
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: none;
+    display: none;
+    cursor: pointer;
+}
+.comment-action .right-action-comment button:hover, .comment-action .right-action-comment input[type=submit]:hover{
+    transform: translateY(-2px);
+}
+
+.comment-action .right-action-comment .ebs-comment{
+    background: #2a4d69;
+    color: #e8eef1;
+}
+
+.comment-action .right-action-comment .ebc-comment{
+    color: #2a4d69;
+    background: #e8eef1;
+}
+

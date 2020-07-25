@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #f1f5f7;
+    /*background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='75' height='37.5' viewBox='0 0 75 37.5'%3E%3Cdefs%3E%3Crect stroke='%23ffffff' stroke-width='0.37' width='1' height='1' id='s'/%3E%3Cpattern id='a' width='2' height='2' patternUnits='userSpaceOnUse'%3E%3Cg stroke='%23ffffff' stroke-width='0.37'%3E%3Crect fill='%23fafafa' width='1' height='1'/%3E%3Crect fill='%23ffffff' width='1' height='1' x='1' y='1'/%3E%3Crect fill='%23f5f5f5' width='1' height='1' y='1'/%3E%3Crect fill='%23f0f0f0' width='1' height='1' x='1'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='b' width='5' height='11' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23ebebeb'%3E%3Cuse xlink:href='%23s' x='2' y='0'/%3E%3Cuse xlink:href='%23s' x='4' y='1'/%3E%3Cuse xlink:href='%23s' x='1' y='2'/%3E%3Cuse xlink:href='%23s' x='2' y='4'/%3E%3Cuse xlink:href='%23s' x='4' y='6'/%3E%3Cuse xlink:href='%23s' x='0' y='8'/%3E%3Cuse xlink:href='%23s' x='3' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='7' height='7' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23e5e5e5'%3E%3Cuse xlink:href='%23s' x='1' y='1'/%3E%3Cuse xlink:href='%23s' x='3' y='4'/%3E%3Cuse xlink:href='%23s' x='5' y='6'/%3E%3Cuse xlink:href='%23s' x='0' y='3'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='11' height='5' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23ffffff'%3E%3Cuse xlink:href='%23s' x='1' y='1'/%3E%3Cuse xlink:href='%23s' x='6' y='3'/%3E%3Cuse xlink:href='%23s' x='8' y='2'/%3E%3Cuse xlink:href='%23s' x='3' y='0'/%3E%3Cuse xlink:href='%23s' x='0' y='3'/%3E%3C/g%3E%3Cg fill='%23e0e0e0'%3E%3Cuse xlink:href='%23s' x='8' y='3'/%3E%3Cuse xlink:href='%23s' x='4' y='2'/%3E%3Cuse xlink:href='%23s' x='5' y='4'/%3E%3Cuse xlink:href='%23s' x='10' y='0'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='47' height='23' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23ab9c6d'%3E%3Cuse xlink:href='%23s' x='2' y='5'/%3E%3Cuse xlink:href='%23s' x='23' y='13'/%3E%3Cuse xlink:href='%23s' x='4' y='18'/%3E%3Cuse xlink:href='%23s' x='35' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='61' height='31' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23ab9c6d'%3E%3Cuse xlink:href='%23s' x='16' y='0'/%3E%3Cuse xlink:href='%23s' x='13' y='22'/%3E%3Cuse xlink:href='%23s' x='44' y='15'/%3E%3Cuse xlink:href='%23s' x='12' y='11'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23a)' width='75' height='37.5'/%3E%3Crect fill='url(%23b)' width='75' height='37.5'/%3E%3Crect fill='url(%23c)' width='75' height='37.5'/%3E%3Crect fill='url(%23d)' width='75' height='37.5'/%3E%3Crect fill='url(%23e)' width='75' height='37.5'/%3E%3Crect fill='url(%23f)' width='75' height='37.5'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;*/
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%2392a1ac' fill-opacity='0.18'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+header{
+    margin: auto;
+    text-align: center;
+    padding: 30px 0;
+    background-image: linear-gradient(#f1f5f7, #f1f5f777, #f1f5f700);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.login-header{
+    padding: 30px 0;
+}
+
+.background{
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header img{
+    float: left;
+    width: 80px;
+    height: 65px;
+}
+
+header p{
+    float: left;
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+.login-header p{
+    font-size: 30px;
+}
+
+.form{
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    margin: 30px auto ;
+}
+
+.formom{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    margin: 0 auto ;
+}
+
+.vr{
+    visibility: hidden;
+    opacity: 0;
+}
+
+form{
+    position: absolute;
+    width: 95%;
+    height: auto;
+    backface-visibility: hidden;
+    box-shadow: 0px 1px 5px #34495e52;
+    border-radius: 10px;
+    padding: 25px 20px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background: #fff;
+    margin: 0 auto ;
+    left: 0;
+    right: 0;
+}
+
+.login-form{
+    transition: 1s ease;
+    width: 95%;
+}
+
+.signup-form{
+    transform: rotateY(180deg);
+    width: 95%;
+}
+
+form h1{
+    color: #2a4d69d9;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.login-form h1{
+    margin: 20px auto 40px;
+    font-size: 28px;
+}
+
+form .input{
+    width: 98%;
+    border-radius: 5px;
+    background: #e3e9ec73;
+    color: #2f3542;
+    height: 50px;
+    margin-bottom: 3%;
+    position: relative;
+    backface-visibility: hidden;
+}
+
+form .half-width{
+    width: 47.5%;
+    float: left;
+}
+
+form .half{
+    margin-right: 3%;
+}
+
+form .input label{
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    font-weight: bold;
+    z-index: 3;
+    color: #0a3d62;
+    opacity: 0.5;
+    transition: 0.3s ease;
+    display: block;
+    backface-visibility: hidden;
+    z-index: 0;
+}
+
+form .half-width label{
+    left: 7.5%;
+}
+
+form .half-width input{
+    padding: 2% 7.5%;
+    width: 100%;
+    z-index: 1;
+}
+
+form .input input{
+    position: absolute;
+    top: 10%;
+    background: none;
+    border: none;
+    width: 92%;
+    height: 25px;
+    padding: 2% 4%;
+    font-size: 16px;
+    z-index: 1;
+    font-family: consolas;
+    font-weight: bold;
+    color: #0a3d62;
+    backface-visibility: hidden;
+}
+
+.fix{
+    clear: both;
+}
+
+form .input input:focus + label {
+    top: 10%;
+    opacity: 1;
+    font-size: 12px;
+    left: 2.5%;
+}
+
+form .input input:valid + label {
+    top: 10%;
+    font-size: 12px;
+    left: 2.5%;
+}
+
+form .half-width input:focus + label ,
+form .half-width input:valid ~ label {
+    left: 5%;
+}
+
+form .input input:focus  ,
+form .input input:valid  {
+    top: 25%;
+    outline: none;
+}
+
+form .input input:focus ~ .input,
+form .input input:valid ~ .input{
+    height: 60px;
+}
+
+
+form .input span:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    transform-origin: left;
+    transform: scalex(0);
+    background: #0a3d62;
+    transition: 0.5s ease;
+    opacity: 0.8;
+    z-index: 3;
+}
+
+form .input input:focus ~ span:before{
+    transform: scalex(1);
+}
+
+.birthday{
+    margin-top: 25px;
+}
+
+.label{
+    color: #2a4d69;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+select{
+    min-width: 13%;
+    height: 30px;
+    border: none;
+    border-bottom: 3px solid#587389e0;
+    margin: 0 3px 0 4px;
+    color: #2a4d69;
+    background: #e3e9ec73;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+select:focus{
+    outline: none;
+}
+
+option{
+    color: #2a4d69;
+    background: #e3e9ec73;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+.gender{
+    margin-top: 25px; 
+}
+
+.gender label, p{
+    display: inline-block;
+    color: #2a4d69;
+    font-family: 'Roboto', sans-serif;
+}
+
+.gender label{
+    font-weight: bold;
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+.gender .radio{
+    width: 15px;
+    height: 15px;
+    background: #e3e9ec73;
+    border: none;
+    color: #2a4d69;
+}
+
+button{
+    width: 80%;
+    height: 50px;
+    background: #2a4d69;
+    color: #e8eef1;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 2% 10% 2%;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#hr{
+    height: 1px;
+    width: 100%;
+    background: #0a3d62;
+    margin: 2% auto;
+    display: block;
+    opacity: 0.3;
+}
+
+button:hover{
+    background: #2a4d69d8;
+}
+
+.signin{
+    margin: 7% 10% 2%;
+}
+
+.have-account{
+    width: fit-content;
+    margin: auto;
+}
+
+a{
+    color: #0071c2;
+    font-size: 18px;
+    margin: 0 auto;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+a:hover{
+    color: #00528d;
+}
+
+
+@media only screen and (min-width: 1023px){
+    .form{
+        position: relative;
+        width: 95%;
+        max-width: 1150px;
+        margin: 20px auto ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .formom{
+        position: static;
+    }
+    
+    .login-form{
+        position: static;
+        float: right;
+        margin: 10% 0 0 20px;
+        width: 40%;
+        height: 350px;
+        max-width: 400px;
+        max-height: 550px;
+        transform: rotateY(0deg);
+        padding: 30px 35px !important;
+    }
+
+    .login-form h1{
+        font-size: 24px;
+    }
+
+    .signup-form{
+        position: static;
+        float: left;
+        margin: 0 20px;
+        padding: 30px 35px !important;
+        width: 50%;
+        max-width: 500px;
+        max-height: 580px;
+        transform: rotateY(0deg);
+    }
+    
+    a{
+        visibility: hidden;
+        opacity: 0;
+    }
+}

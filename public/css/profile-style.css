@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave&display=swap');
+
+.fix{
+    clear: both;
+}
+
+button:focus, input:focus{
+    outline: none;
+}
+
+main .profile-info{
+    width: 95%;
+    background: #fff;
+    max-width: 300px;
+    box-shadow: 0px 0px 1px #00000033;
+    border-radius: 5px;
+    margin: 10px auto;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.profile-info .edit-profile{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 18px;
+    box-shadow: 0px 0px 2px #00000079;
+    background: #fff;
+    border-radius: 3px;
+    transition: 0.5s ease;
+    transform: translateX(45px);
+    border: none;
+    cursor: pointer;
+    color: #0a3d62;
+}
+
+.profile-info .edit-profile p{
+    margin: 0 2px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.profile-info .edit-profile:hover{
+    transform: translateX(1px);
+}
+
+.view{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.view img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.view h2{
+    margin: 0;
+}
+
+.view .bio{
+    margin: 25px 0;
+}
+
+.view .bio h4{
+    margin: 0;
+    font-size: 17px;
+    color: #0a3d62;
+}
+
+.view .bio p{
+    margin: 5px;
+}
+
+.profile-info #edit-form{
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+
+main .profile-info #edit-form img{
+    display: inline-block;
+    width: 15%;
+}
+
+#edit-form input[type=file]{
+    width: 60%;
+}
+
+#edit-form .bio h4{
+    color: #0a3d62;
+    font-size: 17px;
+    margin: 15px 0 0;
+}
+
+#edit-form .bio textarea{
+    width: 60%;
+    min-height: 60px;
+    margin-top: 5px;
+    border: 1px solid rgb(228, 228, 228);
+    box-shadow: 0 0px 2px #00000059;
+    border: none;   
+    border-radius: 5px;
+}
+
+#edit-form .action-btn{
+    float: right;
+    margin: 5px 10px;
+}
+
+#edit-form button{
+    margin: 5px 2px 0;
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+#edit-form .ebss{
+    background: #2a4d69;
+    color: #e8eef1;
+}
+
+#edit-form .ebcc{
+    color: #2a4d69;
+    background: #e8eef1;
+}
+
+.post-container h4 span{
+    color: #0d4d7b;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 1023px){
+
+    main{
+        width: 80%;
+        margin: 0 auto;
+    }
+        
+    main .profile-info{
+        position: fixed;
+        margin-top: 0px;
+    }
+
+    .view img{
+        width: 50%;
+        border-radius: 50%;
+    }
+    .view .bio h5{
+        font-size: 14px;
+    }
+
+    .view .bio p{
+        font-size: 18px;
+    }
+
+    main .profile-info #edit-form img{
+        width: 20%;
+    }
+
+    #edit-form input[type=file]{
+        width: 60%;
+    }
+
+    #edit-form .bio h5{
+        font-size: 14px;
+    }
+
+    #edit-form .bio textarea{
+        width: 70%;
+    }
+
+}
