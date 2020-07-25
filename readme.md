@@ -2,7 +2,7 @@
 A social website made for education porpose
 
 ## Link
-- http://sanagel-club.epizy.com
+- <a href="http://sanagel-club.epizy.com" target="_Blanck">Sanagel-club</a>
 
 ## Features
 - Create Accounts
